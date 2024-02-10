@@ -3,30 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bit Mart</title>
+    <title>Crypto Pulse</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="/assets/bitcoin.svg" />
+    <link rel="icon" type="image/png" href="/assets/main-icon.svg" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="main-container">
       <nav id="navigation-bar">
-        <div id="nav-items">
-          <img id="navbar-bitcoin" src="assets/bitcoin.svg" alt="" />
-          <ul>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Individual</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">Developers</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div class="sign-up-button">
-            <div class="sign-in-text">Sign Up</div>
-          </div>
-          <div class="sign-in-button">
-            <div class="sign-in-text">Sign In</div>
-          </div>
+        <img id="navbar-bitcoin" src="assets/main-icon.svg" alt="" />
+        <ul>
+          <li><a href="https://github.com/armanulhaq">Explore</a></li>
+          <li><a href="#">Individual</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="https://portfolio-bice-psi-22.vercel.app/">Contact</a></li>
+        </ul>
+        <div class="sign-up-button">
+          <div class="sign-in-text">Sign Up</div>
+        </div>
+        <div class="sign-in-button">
+          <div class="sign-in-text">Sign In</div>
         </div>
       </nav>
+      <div id="main-body-container">
+        <div id="left-part">
+          <div class="main-text">Seamless Trading,</div>
+          <div class="main-text">Real-Time Insights</div>
+          <div class="sub-text">
+            Unlock the power of instant cryptocurrency trading
+          </div>
+          <div class="sub-text">with Cryptopulse. Experience real-time market data, effortless </div>
+          <div class="sub-text">transactions, and insightful analytics, all in one intuitive interface.</div>
+        </div>
+        <div id="right-part">
+          <div id="top-picks">Top Picks </div>
+          <div class="nth-update-container">
+            <div class="cryptocurrency-update-container">
+              <img
+                class="cryptocurrency-gif"
+                src="assets/bitcoin-.svg"
+                alt="Bitcoin"
+              />
+              <div class="cryptocurrency-info">
+                <div class="current-price">$ <span id="bitcoin"></span></div>
+                <div class="cryptocurrency-name">Bitcoin</div>
+              </div>
+           </div>
+           
+          <div class="cryptocurrency-update-container">
+            <img
+              class="cryptocurrency-gif"
+              src="assets/dogecoin.gif"
+              alt="Bitcoin"
+            />
+            <div class="cryptocurrency-info">
+              <div class="current-price">$ <span id="dogecoin"></span></div>
+              <div class="cryptocurrency-name">Doge Coin</div>
+            </div>
+          </div>
+          <div class="cryptocurrency-update-container">
+            <img
+              class="cryptocurrency-gif"
+              src="assets/ethereum.gif"
+              alt="Dogecoin"
+            />
+            <div class="cryptocurrency-info">
+              <div class="current-price">$ <span id="ethereum"></span></div>
+              <div class="cryptocurrency-name">Ethereum</div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="nth-update-container">
+        <div class="cryptocurrency-update-container">
+          <img
+            class="cryptocurrency-gif"
+            src="assets/tether.svg"
+            alt="1 inch"
+          />
+          <div class="cryptocurrency-info">
+            <div class="current-price">$ <span id="tether"></span></div>
+            <div class="cryptocurrency-name">Tether</div>
+          </div>
+       </div>
+       
+      <div class="cryptocurrency-update-container">
+        <img
+          class="cryptocurrency-gif"
+          src="assets/ripple.svg"
+          alt="Dogecoin"
+        />
+        <div class="cryptocurrency-info">
+          <div class="current-price">$ <span id="ripple"></span></div>
+          <div class="cryptocurrency-name">Ripple</div>
+        </div>
+      </div>
+      <div class="cryptocurrency-update-container">
+        <img
+          class="cryptocurrency-gif"
+          src="assets/cardano.svg"
+          alt="Cardano"
+        />
+        <div class="cryptocurrency-info">
+          <div class="current-price">$ <span id="cardano"></span></div>
+          <div class="cryptocurrency-name">Cardano</div>
+        </div>
+      </div>
     </div>
+      
+      </div>
+    </div>
+    <script src="/script.js"></script>
   </body>
 </html>
